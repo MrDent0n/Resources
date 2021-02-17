@@ -1,1 +1,1 @@
-If your Nginx server does not want to start because you deleted the default page under </etc/nginx/sites-available/> then add the default file to the sites-available folder and restart nginx
+If your Nginx server does not want to start because you deleted the default page under </etc/nginx/sites-available/> and not the symlink in sites-enabled then download the default file again and you should be good to go after restarting Nginx <Sudo systemctl restart nginx>
